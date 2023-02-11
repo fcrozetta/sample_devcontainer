@@ -6,11 +6,19 @@
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
+	"runArgs": [
+		"--env-file",
+		"${localWorkspaceFolder}/.devcontainer/.env"
+	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		8000
 	],
-	"portsAttributes": {"8000": {"label": "Application port"}},
+	"portsAttributes": {
+		"8000": {
+			"label": "Application port"
+		}
+	},
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "pip3 install --user -r requirements.txt",
 	"customizations": {
