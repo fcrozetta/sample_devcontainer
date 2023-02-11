@@ -8,7 +8,7 @@
 	// "features": {},
 	"runArgs": [
 		"--env-file",
-		"${localWorkspaceFolder}/.devcontainer/.env"
+		"${localWorkspaceFolder}/.devcontainer/dotenv"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
