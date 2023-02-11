@@ -18,6 +18,14 @@
 				"tinkertrain.theme-panda",
 				"yzhang.markdown-all-in-one"
 			]
+		},
+		"codespaces": {
+			"extensions": [
+				"aaron-bond.better-comments",
+				"oderwat.indent-rainbow",
+				"tinkertrain.theme-panda",
+				"yzhang.markdown-all-in-one"
+			]
 		}
 	}
 	// Configure tool-specific properties.
